@@ -5,3 +5,11 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+img{
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
