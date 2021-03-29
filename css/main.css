@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -12,4 +14,23 @@ img{
 
 body {
   margin: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "banner banner banner"
+  "col1 col2 col3";
+  gap: .75em;
+}
+
+.banner {
+  grid-area: banner;
+}
+
+.banner-text {
+  grid-area: banner;
+  align-self: end;
+  color: #fff;
 }
