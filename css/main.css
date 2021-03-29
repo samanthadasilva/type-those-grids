@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-img{
+img {
   width: 100%;
 }
 
@@ -20,8 +20,8 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "banner banner banner"
-  "col1 col2 col3";
+    "banner banner banner"
+    "col1 col2 col3";
   gap: .75em;
 }
 
@@ -59,7 +59,7 @@ h2 {
 }
 
 header {
-  padding: 1.5rem 1.5rem;
+  padding: 1.5rem 1rem;
 }
 
 p {
@@ -70,9 +70,9 @@ figure {
   margin: 0;
 }
 
- figure h2 {
-   margin-bottom: 0;
- }
+figure h2 {
+  margin-bottom: 0;
+}
 
 figcaption {
   padding: 1rem;
